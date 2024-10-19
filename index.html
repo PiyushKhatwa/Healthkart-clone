@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HealthKart - Fit Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAACWCAMAAACYXqEeAAAAYFBMVEX///8AtbcWWYDF1d9/2ttQg6CKrL8/yMnB7e3i6u/T4Ofw9fclY4gzbpBul7Cnwc8WvsBCeJiZtsd8orhfjai2y9csw8Xw+vrQ8fFg0dKh4+Xf9vZx1ddQzM6w6OmQ3+DW9WMiAAAE90lEQVR4nO2c6XbaMBBGTVpIAGO2LNB0ef+37PGMbc0imrZjifac7/5IE1tIoytrxadNAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBJPs/BvStxTxZzcO9K3BMIDAKBQSAwCAQGgcAgEBgEAoNAYBAIDAKBQSAwCAQGgcAgEBgEAoNAYBAIDPLfCfzUIy+s+wtrm0Kx8dlsbDYyN5ve55hSsYHHHqnk0F842Auv6e/XR5EiU14m5q0sPRe3J1PDhx55YdVfWNkUiqXPZtdf3/vrq1x6n2NKJQxIgfQ90Wd74Wn685E+8faaE7ih7Lcutk+q+F0n9azyMfoKziSQY3n22VcS+PpGn7hmu/CZsj/dCFpGkDpebYEd31i7G3UEHi70ga/jTV1cS9kfPxb40E4dvbLALceYaeU6Ap8o/ZfppirtZcjfjYJe4MNu7OizC8wNn4n9WL67kxWoamBu/o3AL5T8km6qHJ+H4M7Z4oe6r1dt/hFYflT7WQQuxxZyyWoIvFLqdzFHywy3Y2xttvip7hsy6Dp6FYFrKrr/0dlbFQTqCdgJPFHX6H+85IpPdd9nO2kVgTTNvfRBtnaxUF7gMAF/k6llhuSOSrKLBCOQHgM3UlYRSOpYo10KFhc4TMBXmVgK3HDHII2mdY3AfEVrCHzhGDc5V8UF2gnYCuy481JHNjOEEciDpV2J1RA4xNgcMwGUFsgT8NNCI/JrqXdw/zSLhBnHwJVgmRXYySS6n1LL9VPcyX6yiQmUb/zRg+YF8gR8OdwUuOfeMbSuHuC0QF7Lus3U7wl0/MlCmmLsF1m5Vo4IdDiB73z9urgp8HnoHdy6epGgBO7bfE+rIDC17dEXVlbgwPvNJ3A99g7xmy7+YdlzHGrmlmEVBIrnLtPKVQQ2328JPI29Y3gW1eDjt3Le328KXAp2WYFHmURtis4pRp7H1GIhIvBJQJ31pkC9ChQCd1Pv4JFGDXFWYOu38jVmYRFjppXLzsL9NVpHv+lOPGa2Sb0js0qxAu1OhSgukBaBrZzB1XaytMDr4iv9qxcyY2a0wDoOwVFLy4eMBdJJsw98pLjA8axDIFu5sMB+Af29sfcmga2LTS4SxCzMv2ZO1IsL3LoQ9blRWYF0gnXgzXDmMGGfCU5URC5jltbuSGmBp0yMMo4ax1nfKPXFH2dleoecaKVA/j0zi5QWSAsoMUVTpxGjcZUD1R+U/IcVyMcrKTaKVZwXqYX00txs5PVyAvkLLzHodaaVqwg88I4krWVE2XJmoNZNA50SyLbNRrQpLvBsFfAXEKkhqwgcz1SnTsxZuWm30+XpvXCXfwTnEqhIMZg2Ha+kqP2XMyLr2QQOc/K0IRF+5JLA9BctkB9BtxcpK9A+b8249NK5lRe40N9rpkj06YreZZnjrM4J7ykr8NnHyK38i+9Xywjkg335ZsLW9w4ecaZFQvZI3z6CRQVykWb5Sa18VrlVEDhsSC7p47wI1GMat+6owx7pn3XbMx8KjLxcxG/nmHF3o17l8S/piKy3mbd+2MCfv1zEHxmSTCVnX2tay+JF3W9Xx69u/l0Wc3DvStwTCAwCgUEgMAgEBoHAIBAYBAKDQGAQCAwCgUEgMAgEBoHAIBAYBAKDQGAQCAwCgUHwn9ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAivwEO85BrXBamFEAAAAASUVORK5CYII=" alt="">
+            </div>
+            
+            <div class="search">
+                <div class="search">
+                    
+                    <span></span>
+                </div>
+                <input type="text" placeholder="Search for products & brands">
+            </div>
+            <div class="auth-cart">
+                <button class="login-btn">Login</button>
+                <div class="cart">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEX///8AAADR0dEQEBDy8vIqKipGRkanp6f7+/tfX1/19fXk5OTX19dzc3PBwcEYGBjs7OyNjY3e3t4dHR0wMDCurq61tbU+Pj6CgoIJCQlMTEx5eXlVVVXHx8dpaWmUlJSdnZ2xMhkIAAAEZUlEQVR4nO2c65qiMAyGy0kRUBQZTyhy/1e57szu6NA2krRN+DHfBfR5LZDm8FUVWXRQgrJBZXOEijZzhOrzGUJJbpUd6jJHqCieI9R6jlBRNUeofo5QUTlHqNMcoWqhrQKhop0M1OqHrmOqmFXNP6j8h9RxBHVOOFW3p61h4w7w4wyvzHDkphdpKtPptpRmio6pBpVn0lCmTPwuzWQ63batNFRt+AB30lBnA1QqDWVMedfCUHcTVJmIMtWNCUp1olCWLLwUhdJj55dWgkzWbKmSYzqa0oRP5b0Y1NLGpFQsxQQ2e8bJHpfAtthGhmkFtnoKLVtn0Zv2hUhe/LYkr/mZ9m+bFwJ58fuCfLtgh7IdMC8auJmG90wqZ2YyVDEGMefF08YJJWsJcZ3YIj9xQk3tkHOWEKuJTKx58fSmb7XnYsJ057iSvcRcwZjVMEEZSz2reDKYvTUxN4onL0aOYXOOzl6LHS3eGKDQk8U8fAkBJ+ZGhc+LCXPFIvRWkWZlH2GZUHHzW2nYfjFx/BO2hJiUb+oK2i8eaExB8+IFcaMeWxWuCerg8wm2VUc6k2pC1fA3B6hQrXU3O0agZM9xbh5kq1x9K/HZP1PmbDAIkOzhEnPjVvmHcmYK0FoHOuZT5X0Mfy3cobynCh4sf96Pv+kNDbt8z+BrD4Y/7xPAD3cm7wG988DkO0i5h03/MWrwwOR5pLX246nzFzeTbOfJPKrFze5jSdLhhutDASrGFVbia2UHaXFT9KbBl8px1b7ycJK6Shs7yDnCv6WVDD5OUleN42Yi5gd/Smt5SnmcX6X10ckNCX/SnDg+jlJXjT89u2eHT8X41PORm7mqGgXOORww2rc3hxilN/albmK8Sp82tIsQQgVkLhcV6jiNeaxBCQqq5HHB4aCYDJ9IqMDDIhqUYrlcgIVi2SosVM7xVmGh1JbBWYKGUlV4yzweSjXBgxUBSqWhHUsUqMcjvAY9b87EUrJadpc2CyV62VakwSR4jf5Xv/oVSelmuJ/uy5v711s8Vtrdl7HrSvnmWb+vKpfVipeVeidXQvwzqerpJelopY7knfqUbiohTlpzfUBH7JjkphxhIC1lmoXRPF3mqRqleeZvJdvsGP+S2lbCD5MrWyKVYXt69uEqelhgTzoHsZWA2fEZ6Yy2m2Vq5KZDFjPc1wxdDcKtBHqs16jIDpVEVxRUA5kpUcZD8GJJi4KKwUIU8yqAxoY96tyCzeiYpUATAW4IBfc8MVDgz8MVozfQ9IaBAq9bW67Y25aCWi6omL6FoDJUTE+h25C4WTJU9y8wC8E3jHDHO2ThQaYv0PuJ60pA3wy2lWCPnrgwrAr7m4D+Rz77D8Sm1/aV0D0XayMWP+C2XesiGLw0p8uXkA/vrywXm0mGkMoUQI+UKssYQJEX1v6r1H8h0Tha6k+wp1oKtuMYc6dacLSVdg7VdtM/A/Le+A9fk1daP0+utnN0XjSH7phEyeV0o1faryvVi93G+l7+Ac8cTlood9bzAAAAAElFTkSuQmCC" alt="Cart">
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <nav class="sub-navbar">
+            <ul>
+                <li><a href="#">Shop By Category</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">Offer Zone</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Gift Card</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Store Locator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="https://img2.hkrtcdn.com/35861/bnr_3586091_o.jpg" alt="Fit Foods Banner">
+        <div class="banner-text">
+            <!-- <h2>Fit Foods</h2> -->
+            <!-- <p>Up to 25% OFF + Extra 5% OFF</p>
+            <button>Shop Now</button> -->
+        </div>
+    </section>
+
+    <!-- Deals of the Day Section -->
+    <section class="deals">
+        <h2>Deals Of The Day</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://img5.hkrtcdn.com/27428/prd_2742714-MuscleBlaze-Biozyme-Performance-Whey-4.4-lb-Rich-Chocolate_c_m.jpg" alt="Product 1">
+                <p>MuscleBlaze Biozyme Performance Whey, 4.4 lb Rich Chocolate </p>
+                <br>
+                <h3>$19 <button id="buy">BUY</button></h3>
+            </div>
+            <div class="product">
+                <img src="https://img6.hkrtcdn.com/35599/pck_3559845_c_m.jpg" alt="Product 2">
+                <p>HealthKart HK Vitals DHT Blocker with Biotin 60 tablets - Pack of 2</p>
+                <br>
+                <h3>$49 <button id="buy">BUY</button></h3>
+            </div>
+            <div class="product">
+                <img src="https://img5.hkrtcdn.com/24447/prd_2444674-HealthKart-HK-Vitals-ACV-750-mg-Effervescent-60-tablets-Watermelon_c_m.jpg" alt="Product 3">
+                <p>HealthKart HK Vitals ACV 750 mg Effervescent, 60 tablet(s) Watermelon</p>
+                <br>
+                <h3>$29 <button id="buy">BUY</button></h3>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h1 id="offersh1">OFFERS</h1>
+    <br>
+    <br>
+    <section class="offers">
+        <div id="newly"><img src="https://img6.hkrtcdn.com/35858/bnr_3585745_o.jpg" alt=""></div>
+        <div id="isopure"><img src="https://img2.hkrtcdn.com/35857/bnr_3585661_o.jpg" alt=""></div>
+        <div id="wellness"><img src="https://img2.hkrtcdn.com/35745/bnr_3574491_o.jpg" alt=""></div>
+        <div id="asitis"><img src="https://img6.hkrtcdn.com/35863/bnr_3586265_o.jpg" alt=""></div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h1 id="offersh1">OFFERS</h1>
+    <br>
+    <br>
+    <section class="discount">
+        <div id="30"><img src="https://img10.hkrtcdn.com/35746/bnr_3574519_o.jpg" alt=""></div>
+        <div id="40"><img src="https://img10.hkrtcdn.com/35767/bnr_3576619_o.jpg" alt=""></div>
+        <div id="50"><img src="https://img2.hkrtcdn.com/35767/bnr_3576621_o.jpg" alt=""></div>
+        <div id="60"><img src="https://img4.hkrtcdn.com/35767/bnr_3576623_o.jpg" alt=""></div>
+    </section>
+<!-- Footer Section -->
+
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>HealthKart</h2>
+        </div>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>HealthKart</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Refer & Earn</a></li>
+                    <li><a href="#">Loyalty Program</a></li>
+                    <li><a href="#">Blogs, Videos & More</a></li>
+                    <li><a href="#">Brand Directory</a></li>
+                    <li><a href="#">Authenticity Guaranteed</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Brands</h3>
+                <ul>
+                    <li><a href="#">MuscleBlaze</a></li>
+                    <li><a href="#">Fit Foods</a></li>
+                    <li><a href="#">HK Vitals</a></li>
+                    <li><a href="#">TrueBasics</a></li>
+                    <li><a href="#">Gritzo</a></li>
+                    <li><a href="#">bGREEN</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Health & Fitness</h3>
+                <ul>
+                    <li><a href="#">Hair & Skin Care</a></li>
+                    <li><a href="#">Sports Nutrition</a></li>
+                    <li><a href="#">Vitamins & Supplements</a></li>
+                    <li><a href="#">Ayurveda & Herbs</a></li>
+                    <li><a href="#">Health Food & Drinks</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Wellness</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                    <li><a href="#">HK Cash</a></li>
+                    <li><a href="#">HK Coupons</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Sell On HealthKart</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-envelope"></i> care@healthkart.com</li>
+                    <li><i class="fas fa-phone"></i> 0124-4616444</li>
+                    <li><i class="fas fa-map-marker-alt"></i> The Presidency Tower, Sector 14, Gurugram</li>
+                </ul>
+                <div class="subscribe">
+                    <h4>Subscribe</h4>
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/facebook-new.svg" alt="Facebook"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/Instagram-new.svg" alt="Instagram"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/LinkedIn-new.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/Youtube-new.svg" alt="YouTube"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/twitter-new.svg" alt="Twitter"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pinterest-icon.svg" alt="Pinterest"></a>
+            </div>
+            
+            <div class="footer-payment">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay1.svg" alt="UPI">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay2.svg" alt="Visa">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay3.svg" alt="MasterCard">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay4.svg" alt="Net Banking">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay5.svg" alt="EMI Option">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/pay6.svg" alt="Cash on Delivery">
+            </div>
+            
+            <div class="app-download">
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/google-badge.svg" alt="Download on Play Store"></a>
+                <a href="#"><img src="https://static1.hkrtcdn.com/hknext/static/media/common/footer/app-store-new.svg" alt="Download on App Store"></a>
+            </div>
+            
+        <div class="footer-copyright">
+            <p>Copyright &copy; 2024, HealthKart.com, or its affiliates</p>
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Delivery Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Returns Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
